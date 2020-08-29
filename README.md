@@ -14,8 +14,6 @@ Up-to-date documentation can be found at https://docs.gethelix.co. This is autom
 
 If you'd like to ask some questions or integrate with the community, you can always join our Discord server. We highly encourage you to search through the documentation before posting a question - the docs contain a good deal of information about how the various systems in Helix work, and it might explain what you're looking for.
 
-Building documentation
-If you're planning on contributing to the documentation, you'll probably want to preview your changes before you commit. The documentation can be built using LDoc - note that we use a forked version to add some functionality. You'll need LuaRocks installed in order to get started.
 
 Contributing
 Feel free to submit a pull request with any fixes/changes that you might find beneficial. Currently, there are no solid contributing guidelines other than keeping your code consistent with the rest of the framework.
