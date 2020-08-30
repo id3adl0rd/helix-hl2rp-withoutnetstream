@@ -44,7 +44,12 @@ end
 
 function PANEL:Populate(target, cid, data, bDontShow)
 	data = data or {}
-	cid = cid or string.format("00000 (%s)", L("unknown")):upper()
+	
+	if string.len(tostring(cid)) > 0 then
+		cid = cid
+	else
+		cid = L("unknown"):upper()
+	end	
 
 	self.alpha = 255
 	self.target = target
